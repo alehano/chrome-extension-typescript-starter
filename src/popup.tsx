@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
+import "./index.css";
 
 const Popup = () => {
   const [count, setCount] = useState(0);
@@ -36,7 +37,7 @@ const Popup = () => {
 
   return (
     <>
-      <div className="text-xl">MagicSales.AI</div>
+      <div className="text-xl">My Extension</div>
       <ul style={{ minWidth: "700px" }}>
         <li>Current URL: {currentURL}</li>
         <li>Current Title: {title}</li>
